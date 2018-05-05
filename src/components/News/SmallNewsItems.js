@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import SmallNewsItem from '../News/SmallNewsItem'
+import NewsItem from '../News/NewsItem'
 
 class SmallNewsItems extends Component {
 
@@ -76,7 +76,7 @@ class SmallNewsItems extends Component {
     }
 
     let items = this.news.map((item)=>{
-        return <SmallNewsItem content = {item}/>
+        return <NewsItem content = {item}/>
     })
 
     return (
