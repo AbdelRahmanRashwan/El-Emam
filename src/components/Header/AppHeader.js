@@ -7,7 +7,7 @@ class AppHeader extends Component {
 
   render() {
     return (
-      <header>
+      <header style={this.props.style}>
         <div className="container">
             <img id="logo" src={require("../../resources/logo.png")}/>
             <HeaderList />
