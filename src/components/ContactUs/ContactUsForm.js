@@ -5,7 +5,7 @@ class ContactUs extends Component {
     
     render() {
         return (
-            <div class="content">
+            <div class="contactus-content">
                 <div class="row">
                     <div class="contact_us column">
                         <label class="hLabel">تواصل معنا</label>

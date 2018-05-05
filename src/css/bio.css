@@ -110,7 +110,7 @@ p{
 }
 /* tags style
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-p{
+.white_p{
     text-align-last: center;
     font-size: 6pt;
     line-height: 10pt;

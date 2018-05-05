@@ -11,7 +11,7 @@ class Birth extends Component {
                 <img className="decoration" src={require("../../resources/section_decoration.png")}/>
 
                 <label className="section_label">مولده ونشأته</label>
-                <p>{birth_and_history}</p>
+                <p className="white_p">{birth_and_history}</p>
 
             </div>
         );

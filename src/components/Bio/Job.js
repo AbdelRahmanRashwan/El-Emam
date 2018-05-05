@@ -8,7 +8,7 @@ class Job extends Component {
                 <img class="jop_image" src={this.props.job.image}/>
                 <h3>{this.props.job.title}</h3>
                 <h4>{this.props.job.date}</h4>
-                <p>{this.props.job.content}</p>
+                <p className="white_p">{this.props.job.content}</p>
             </div>
         );
     }
