@@ -57,6 +57,12 @@ class Slider extends Component {
                         </div>
                     </div>
                 </div>
+                <div data-u="arrowleft" class="jssora051 left_arrow" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
+                        <img class="a" src={require("../../resources/left-arrow-64.png")}/>
+                </div>
+                <div data-u="arrowright" class="jssora051 right_arrow" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
+                    <img class="a" src={require("../../resources/right-arrow-64.png")}/>
+                </div>
             </div>
 
         );

@@ -32,8 +32,6 @@ p{
     background-image: url("../resources/background.png");
     background-size: cover;
 }
-
-
 /* header-content
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .header_content{
@@ -112,7 +110,7 @@ p{
 }
 /* tags style
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-p{
+.white_p{
     text-align-last: center;
     font-size: 6pt;
     line-height: 10pt;

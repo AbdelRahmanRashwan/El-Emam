@@ -4,6 +4,7 @@ import {BrowserRouter, Route} from 'react-router-dom';
 import Media from './components/Home/Media';
 import Bio from './components/Bio/Bio';
 import NewsPage from './components/News/NewsPage'
+import ContactUs from './components/ContactUs/ContactUs'
 
 class App extends React.Component{
     
@@ -15,6 +16,7 @@ class App extends React.Component{
                     <Route path = "/Media" component = {Media}/>
                     <Route path = "/News" component = {NewsPage}/>
                     <Route path = "/Mo2alfat" component = {Bio}/>
+                    <Route path = "/Contact" component = {ContactUs}/>
                 </div>
             </BrowserRouter>
         )

@@ -10,7 +10,7 @@ class Qoutation extends Component {
                 <img id="emam_quote_img" src={require("../../resources/emam in qoutation.png")}/>
                 <div className="quote_container">
                     <img id="qoute_decoration" src={require("../../resources/qoutation border.png")}/>
-                    <p id="qoute">{qoute}</p>
+                    <p id="qoute" className="white_p">{qoute}</p>
                 </div>
             </div>
         );
