@@ -4,17 +4,18 @@ import HeaderList from './HeaderList.js'
 import '../../css/header.css'
 
 class AppHeader extends Component {
-    render() {
-        return (
-            <header style = {this.props.style}>
-                <div className="container">
-                    <img id="logo" src={require("../../resources/logo.png")}/>
-                    <HeaderList />
-                    <ShareSection />
-                </div>
-            </header>
-        );
-    }
+
+  render() {
+    return (
+      <header>
+        <div className="container">
+            <img id="logo" src={require("../../resources/logo.png")}/>
+            <HeaderList />
+            <ShareSection />
+        </div>
+      </header>
+    );
+  }
 }
 
 export default AppHeader;

@@ -5,6 +5,7 @@ class FooterList extends Component {
 
   render() {
     let list = this.props.list;
+    console.log(this.props);
     let restOfList = new Array();
     for (var i = 1; i<list.length;i++){
       restOfList.push(list[i]);
@@ -15,7 +16,7 @@ class FooterList extends Component {
       );
     })
     return (
-      <ul className="footer-list">
+      <ul class="footer-list">
           <li className="first-footer-list-item footer-list-item">{list[0]}</li>
           {finalJobs}
       </ul>
