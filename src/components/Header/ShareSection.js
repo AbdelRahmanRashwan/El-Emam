@@ -5,7 +5,7 @@ class ShareSection extends Component {
   render() {
     return (
       <div id="share-eng">
-        <img id="share" src={require("../../resources/share.png")}/>
+        <img id="share" src={require("../../resources/social.png")}/>
         <p id="english">EN</p>
       </div>
     );

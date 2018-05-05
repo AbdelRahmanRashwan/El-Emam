@@ -1,6 +1,6 @@
 import React from 'react';
 
-const NewsItem = (props) => {
+const SmallNewsItem = (props) => {
 
     const styleFloatRight = {
         float:'right'
@@ -39,4 +39,4 @@ const NewsItem = (props) => {
     
 }
 
-export default NewsItem;
+export default SmallNewsItem;
