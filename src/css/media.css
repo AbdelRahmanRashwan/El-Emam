@@ -10,7 +10,7 @@
 }
 
 .media-row{
-
+    
 }
 
 .media-element{
@@ -22,7 +22,7 @@
 .media-image-hint{
     background: url('../resources/video image background.jpg');
     height: 174px;
-    position: relative;
+    position: relative; 
 }
 
 .img-open{
@@ -109,4 +109,14 @@
 
 .jssora051:hover {
     opacity: .8;
+}
+
+.left_arrow{
+    position: absolute;
+    left: 10px;
+}
+
+.right_arrow{
+    position: absolute;
+    right: 10px;
 }

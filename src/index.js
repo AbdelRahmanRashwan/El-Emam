@@ -1,9 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Bio from './components/Bio/Bio';
+import {BrowserRouter, Route} from 'react-router-dom';
 import Media from './components/Home/Media';
-import ContactUs from './components/ContactUs/ContactUs';
+import Bio from './components/Bio/Bio';
+import NewsPage from './components/News/NewsPage'
 
-import registerServiceWorker from './registerServiceWorker';
-ReactDOM.render(<Bio />, document.getElementById('root'));
-registerServiceWorker();
+class App extends React.Component{
+    
+    render(){
+        return (
+            <BrowserRouter > 
+                <div>
+                    <Route path = "/Bio" component = {Bio}/>
+                    <Route path = "/Media" component = {Media}/>
+                    <Route path = "/News" component = {NewsPage}/>
+                    <Route path = "/Mo2alfat" component = {Bio}/>
+                </div>
+            </BrowserRouter>
+        )
+    }
+}
+
+ReactDOM.render(<App />, document.getElementById('root'));
