@@ -1,9 +1,20 @@
-jssor_1_slider_init = function () {
+import "./jssor.slider.min.js"  ;
+
+declare var $Jssor$;
+declare var $JssorSlider$;
+declare var $JssorEasing$;
+declare var $JssorSlideshowFormations$;
+declare var $JssorSlideshowRunner$;
+declare var $JssorBulletNavigator$;
+declare var $JssorArrowNavigator$;
+declare var $JssorThumbnailNavigator$;
+declare var $JssorCaptionSlideo$;
+export const jssor_1_slider_init = function (size) {
 
     var jssor_1_options = {
         $AutoPlay: 1,
         //slider centered unit width
-        $SlideWidth: 720,
+        $SlideWidth: size,
         $ArrowNavigatorOptions: {
             $Class: $JssorArrowNavigator$
         },
