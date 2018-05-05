@@ -6,7 +6,7 @@
 }
 
 footer{
-    background: url('../resources/footer%20background%201.jpg');
+    background: url('../resources/footer background 1.jpg');
     height: 455px;
 }
 
@@ -49,7 +49,7 @@ footer{
     margin-bottom: 15px;
     color: #5a5a5a;
 }
-    
+
 .first-footer-list-item{
     color: #b2a179;
     font-family: cairo;
@@ -72,4 +72,3 @@ footer{
     font-family: bahij thesansarabic;
     font-size: 12px;
 }
-

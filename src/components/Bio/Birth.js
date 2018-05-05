@@ -6,9 +6,9 @@ class Birth extends Component {
         let birth_and_history = "ولد في مدينة أم القيوين بتاريخ 1952/10/01 م, متزوج من كريمة صاحب السمو الشيخ/ صقر بن محمد القاسمي.ولد في مدينة أم القيوين بتاريخ 1952/10/01 م, متزوج من كريمة صاحب السمو الشيخ/ صقر بن محمد القاسمي.ولد في مدينة أم القيوين بتاريخ 1952/10/01 م, متزوج من كريمة صاحب السمو الشيخ/ صقر بن محمد القاسمي.ولد في مدينة أم القيوين بتاريخ 1952/10/01 م, متزوج من كريمة صاحب السمو الشيخ/ صقر بن محمد القاسمي.ولد في مدينة أم القيوين بتاريخ 1952/10/01 م, متزوج من كريمة صاحب السمو الشيخ/ صقر بن محمد القاسمي.ولد في مدينة أم القيوين بتاريخ 1952/10/01 م, متزوج من كريمة صاحب السمو الشيخ/ صقر بن محمد القاسمي.ولد في مدينة أم القيوين بتاريخ 1952/10/01 م, متزوج من كريمة صاحب السمو الشيخ/ صقر بن محمد القاسمي.ولد في مدينة أم القيوين بتاريخ 1952/10/01 م, متزوج من كريمة صاحب السمو الشيخ/ صقر بن محمد القاسمي.";
         return (
             <div className="birth section">
-                <img id="emam_bio_image" src={require("../resources/newsImage.png")}/>
+                <img id="emam_bio_image" src={require("../../resources/newsImage.png")}/>
 
-                <img className="decoration" src={require("../resources/section_decoration.png")}/>
+                <img className="decoration" src={require("../../resources/section_decoration.png")}/>
 
                 <lable className="section_label">مولده ونشأته</lable>
                 <p>{birth_and_history}</p>

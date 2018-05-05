@@ -13,7 +13,7 @@ class BioContent extends Component {
             <div className="bio">
                 <div className="bio_header">
                     <label>السيرة الذاتية</label>
-                    <img className="underline" src={require("../resources/underline.png")}/>
+                    <img className="underline" src={require("../../resources/underline.png")}/>
                     
                 </div>
                 

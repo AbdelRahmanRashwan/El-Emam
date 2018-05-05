@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import BioHeader from "./BioHeader";
 import BioContent from "./BioContent";
-import '../css/bio.css';
+import Footer from "../Footer/Footer"
+import '../../css/bio.css';
 
 class Bio extends Component {
   render() {
@@ -9,6 +10,7 @@ class Bio extends Component {
       <div className="Bio">
         <BioHeader/>
         <BioContent/>
+        <Footer/>
       </div>
     );
   }

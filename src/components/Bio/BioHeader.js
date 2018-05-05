@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import AppHeader from "./AppHeader"
+import AppHeader from "../Header/AppHeader"
 import BioHeaderContent from "./BioHeaderContent"
 import BioHeaderFooter from "./BioHeaderFooter"
 

@@ -6,11 +6,11 @@
 }
 
 #media-section{
-    background: url('../resources/media%20section%20background.jpg');
+    background: url('../resources/media section background.jpg');
 }
 
 .media-row{
-    
+
 }
 
 .media-element{
@@ -20,9 +20,9 @@
 }
 
 .media-image-hint{
-    background: url('../resources/video%20image%20background.jpg');
+    background: url('../resources/video image background.jpg');
     height: 174px;
-    position: relative; 
+    position: relative;
 }
 
 .img-open{
@@ -45,7 +45,7 @@
 }
 
 #quotation-text{
-    background: URL('../resources/qoutation%20border.png');
+    background: URL('../resources/qoutation border.png');
     width: 665px;
     text-align: center;
     display: inline-block;

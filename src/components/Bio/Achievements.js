@@ -53,7 +53,7 @@ class Achievements extends Component {
         }); 
         return (
             <div className="achievements_grid section black-section">  
-                <img className="decoration" src={require("../resources/section_decoration.png")}/>
+                <img className="decoration" src={require("../../resources/section_decoration.png")}/>
 
                 <lable className="section_label">إنجازاته</lable>
 

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import "../css/timeline.css";
+import "../../css/timeline.css";
 import Job from "./Job";
 
 /**
@@ -86,7 +86,7 @@ class CareerTimeline extends Component {
             
             <div className="career timeline_s section black-section">
             
-                <img className="decoration" src={require("../resources/section_decoration.png")}/>
+                <img className="decoration" src={require("../../resources/section_decoration.png")}/>
 
                 <lable className="section_label">مسيرته العلمية</lable>
 
@@ -94,7 +94,7 @@ class CareerTimeline extends Component {
                     <ul className="timeline_ul">
                         {jobsItems}
                     </ul>
-                    <img id="timeline_decoration" src={require("../resources/decoration_d.png")}/>
+                    <img id="timeline_decoration" src={require("../../resources/decoration_d.png")}/>
                 </section>
             </div>
         );
