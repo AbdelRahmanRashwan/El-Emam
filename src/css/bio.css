@@ -133,17 +133,6 @@ p{
     margin-top: 5px;
 }
 
-/*
-h1{
-    margin: 0;
-}
-
-h2{
-    margin-top: 10px;
-}
-*/
-
-
 /* bio header
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .bio{
@@ -304,7 +293,7 @@ h2{
     width:20px;
     height:20px;
     top:0px;
-    left: 525px;
+    left: 510px;
 }
 
 .right{

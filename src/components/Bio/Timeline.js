@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import "../../css/timeline.css";
-import Job from "./Job";
+import CareerItem from "./CareerItem";
 
 /**
 *This class represents the timeline component showing emam career
@@ -47,11 +47,11 @@ class CareerTimeline extends Component {
     }
     
     render() {
-        let jobsItems = this.props.jobs.map(job=>{
+        let jobsItems = this.props.careerHistory.map(job=>{
             return(
-                <Job job={job}/>
+                <CareerItem job={job}/>
             );
-        })
+        });
         return (
             
             <div className="career timeline_s section black-section">
