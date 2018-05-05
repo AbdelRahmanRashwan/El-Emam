@@ -23,15 +23,6 @@ p{
     font-size: 28pt;
 }
 
-
-
-/* header-navbar
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-header{
-    height: 20%;
-}
-
-
 /* header
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .Bio-header{
@@ -41,8 +32,6 @@ header{
     background-image: url("../resources/background.png");
     background-size: cover;
 }
-
-
 /* header-content
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .header_content{
