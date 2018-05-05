@@ -133,17 +133,8 @@ class BioContent extends Component {
                     <div className="bio_content">
 
                         <Birth birth={this.state.birth}/>
-
-<<<<<<< HEAD
                         <CareerTimeline careerHistory={this.state.careerHistory}/>
-
                         <Slider jobs={this.state.jobs}/>
-=======
-                        <CareerTimeline jobs={this.state.jobs}/>
-
-                        // Positions section
-
->>>>>>> 813c89815a18be550652f8b391846b95d64d078b
                         <Achievements achievements={this.state.achievements}/>
 
                     </div>
