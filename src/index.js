@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-//import Media from './components/Home/Media';
-import News from './components/News/NewsPage';
+import Bio from './components/Bio/Bio';
+import Media from './components/Home/Media';
+
 import registerServiceWorker from './registerServiceWorker';
-ReactDOM.render(<News />, document.getElementById('root'));
+ReactDOM.render(<Media />, document.getElementById('root'));
 registerServiceWorker();
