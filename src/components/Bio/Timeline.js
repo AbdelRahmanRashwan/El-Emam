@@ -6,13 +6,6 @@ import Job from "./Job";
 *This class represents the timeline component showing emam career
 */
 class CareerTimeline extends Component {
-
-    constructor(){
-        super();
-        this.state = {
-            jobs:[]
-        };
-    }
     
     // showing time line items when in viewport
     animateTimeline(){
@@ -49,35 +42,12 @@ class CareerTimeline extends Component {
 
     }
     
-    componentWillMount(){
-        
-        let jobs = [
-            {
-                history:"عمل معيداََ, ومدرساََ مساعداََ, ومدرسا, وأستاذاََ مساعداََ للعقيدة والفلسفه بجامعة اﻷزهر, وحالياََ أستاذ للعقيدة",
-                content:"قال فضلت الامام الكبار: ان القرآنا الكريم استعمال منذ اسلوب الاحوارمع الشباب, وليس اسلوب الملا والأمر والنهي وعرضلنا النموذجين أحدهما الشعب المتمردالذيياستعلى وايستكبار ولا يستجيب والنموذج الأأخر للشعب الوع المتدابار الذي يع ما"
-            },
-            {
-                history:"عمل معيداََ, ومدرساََ مساعداََ, ومدرسا, وأستاذاََ مساعداََ للعقيدة والفلسفه بجامعة اﻷزهر, وحالياََ أستاذ للعقيدة",
-                content:"قال فضلت الامام الكبار: ان القرآنا الكريم استعمال منذ اسلوب الاحوارمع الشباب, وليس اسلوب الملا والأمر والنهي وعرضلنا النموذجين أحدهما الشعب المتمردالذيياستعلى وايستكبار ولا يستجيب والنموذج الأأخر للشعب الوع المتدابار الذي يع ما"
-            },
-            {
-                history:"عمل معيداََ, ومدرساََ مساعداََ, ومدرسا, وأستاذاََ مساعداََ للعقيدة والفلسفه بجامعة اﻷزهر, وحالياََ أستاذ للعقيدة",
-                content:"قال فضلت الامام الكبار: ان القرآنا الكريم استعمال منذ اسلوب الاحوارمع الشباب, وليس اسلوب الملا والأمر والنهي وعرضلنا النموذجين أحدهما الشعب المتمردالذيياستعلى وايستكبار ولا يستجيب والنموذج الأأخر للشعب الوع المتدابار الذي يع ما"
-            },
-            {
-                history:"عمل معيداََ, ومدرساََ مساعداََ, ومدرسا, وأستاذاََ مساعداََ للعقيدة والفلسفه بجامعة اﻷزهر, وحالياََ أستاذ للعقيدة",
-                content:"قال فضلت الامام الكبار: ان القرآنا الكريم استعمال منذ اسلوب الاحوارمع الشباب, وليس اسلوب الملا"
-            }
-        ];
-        this.setState({jobs:jobs});
-    }
-    
     componentDidMount(){
         this.animateTimeline();
     }
     
     render() {
-        let jobsItems = this.state.jobs.map(job=>{
+        let jobsItems = this.props.jobs.map(job=>{
             return(
                 <Job job={job}/>
             );
@@ -88,7 +58,7 @@ class CareerTimeline extends Component {
             
                 <img className="decoration" src={require("../../resources/section_decoration.png")}/>
 
-                <lable className="section_label">مسيرته العلمية</lable>
+                <label className="section_label">مسيرته العلمية</label>
 
                 <section className="timeline">
                     <ul className="timeline_ul">

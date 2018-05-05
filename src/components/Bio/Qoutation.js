@@ -4,7 +4,7 @@ class Qoutation extends Component {
 
     
     render() {
-        let qoute = "إن المسلمين صنعوا حضارة راقية قامت على العلم والمعرفة والتجربة, وسعد بها الناس شرقاََ وغرباََ, تحت ظلال هذا الدين الحنيف.";
+        let qoute = this.props.qoutation;
         return (
             <div className="qoutation">
                 <img id="emam_quote_img" src={require("../../resources/emam in qoutation.png")}/>

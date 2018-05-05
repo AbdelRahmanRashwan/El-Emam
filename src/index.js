@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Media from './components/Home/Media';
+import Bio from './components/Bio/Bio';
 import registerServiceWorker from './registerServiceWorker';
-ReactDOM.render(<Media />, document.getElementById('root'));
+ReactDOM.render(<Bio />, document.getElementById('root'));
 registerServiceWorker();

@@ -3,14 +3,14 @@ import React, { Component } from 'react';
 class Birth extends Component {
     
     render() {
-        let birth_and_history = "ولد في مدينة أم القيوين بتاريخ 1952/10/01 م, متزوج من كريمة صاحب السمو الشيخ/ صقر بن محمد القاسمي.ولد في مدينة أم القيوين بتاريخ 1952/10/01 م, متزوج من كريمة صاحب السمو الشيخ/ صقر بن محمد القاسمي.ولد في مدينة أم القيوين بتاريخ 1952/10/01 م, متزوج من كريمة صاحب السمو الشيخ/ صقر بن محمد القاسمي.ولد في مدينة أم القيوين بتاريخ 1952/10/01 م, متزوج من كريمة صاحب السمو الشيخ/ صقر بن محمد القاسمي.ولد في مدينة أم القيوين بتاريخ 1952/10/01 م, متزوج من كريمة صاحب السمو الشيخ/ صقر بن محمد القاسمي.ولد في مدينة أم القيوين بتاريخ 1952/10/01 م, متزوج من كريمة صاحب السمو الشيخ/ صقر بن محمد القاسمي.ولد في مدينة أم القيوين بتاريخ 1952/10/01 م, متزوج من كريمة صاحب السمو الشيخ/ صقر بن محمد القاسمي.ولد في مدينة أم القيوين بتاريخ 1952/10/01 م, متزوج من كريمة صاحب السمو الشيخ/ صقر بن محمد القاسمي.";
+        let birth_and_history = this.props.birth.birth_and_history;
         return (
             <div className="birth section">
                 <img id="emam_bio_image" src={require("../../resources/newsImage.png")}/>
 
                 <img className="decoration" src={require("../../resources/section_decoration.png")}/>
 
-                <lable className="section_label">مولده ونشأته</lable>
+                <label className="section_label">مولده ونشأته</label>
                 <p>{birth_and_history}</p>
 
             </div>

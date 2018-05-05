@@ -5,7 +5,7 @@ class Job extends Component {
         return (
             <li>
                 <div>
-                    <img src={require("../../resources/newsImage.png")}/>
+                    <img src={this.props.job.image}/>
                     <p className="jop_history">{this.props.job.history}</p>
                     <hr/>
                     <p className="second_p">{this.props.job.content}</p>
