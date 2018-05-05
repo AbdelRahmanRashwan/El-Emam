@@ -71,7 +71,9 @@
   border-color: transparent transparent transparent;
 }
 
-
+.timeline li img{
+    width: 100%; 
+}
 
 /* EFFECTS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */

@@ -13,6 +13,7 @@
 /* general style
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 *{
+    direction: rtl;
     padding: 0px;
     font-weight:lighter;
     font-family: arahamah;
@@ -33,22 +34,26 @@ header{
 
 /* header
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.header{
+.Bio-header{
     position: relative;
     width: 100%;
     height: 480px;
+    background-image: url("../resources/background.png");
+    background-size: cover;
 }
 
-
+header{
+    background: transparent;
+}
 
 /* header-content
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .header_content{
+    top: 20%;
+    position: absolute;
     width: 100%;
     margin: 0 auto;
     height: 100%;
-    background-image: url("../resources/background.png");
-    background-size: cover;
 }
 #emam_img{
     height: 80%;
@@ -70,8 +75,8 @@ header{
 .header_footer{
     width: 100%;
     height: 35%;
-    position: relative;
-    bottom:28%;
+    position: absolute;
+    bottom:-8px;
 }
 .footer-b{
     width: 100%;
@@ -89,7 +94,7 @@ header{
     right: 21%;
     transform: translate(-50%,-50%);
 }
-.history{
+.brief_history{
     position: absolute;
     width: 43%;
     height: 100%;
@@ -98,7 +103,7 @@ header{
     text-align: center;
 }
 
-#history_frame{
+#brief_history_frame{
     width: 100%;
     height: 100%;
 }
@@ -158,6 +163,7 @@ h2{
     width: 140px;
 }
 
+
 .bio_header img{
     text-align: center;
     display: block;
@@ -188,15 +194,14 @@ h2{
 
 /* birth section
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.birth #emam2{
-    display: block;
-    width: 100%;
-    margin-bottom: 20px;
-}
-
 .birth{
     margin: auto;
     width: 40%;
+}
+.birth #emam_bio_image{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
 }
 .birth p{
     font-family: arahamah;
@@ -235,7 +240,8 @@ h2{
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 #achievements_container{
-    margin: 
+    width:80%;
+    margin: 3em auto 0 auto;
     font-family: arahamah;
     color: #b2a179; 
     text-align: right;
