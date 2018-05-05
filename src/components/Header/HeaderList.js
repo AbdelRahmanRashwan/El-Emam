@@ -10,7 +10,7 @@ class HeaderList extends Component {
           <li className="header-li"><Link to='/News'>أخبار الإمام</Link></li>
           <li className="header-li"><Link to='/Bio'>مؤلفات</Link></li>
           <li className="header-li"><Link to='/Media'>ميديا</Link></li>
-          <li className="header-li"><Link to='/Bio'>مقولات الإمام</Link></li>
+          <li className="header-li"><Link to='/Contact'>اتصل بنا</Link></li>
       </ul>
     );
   }
