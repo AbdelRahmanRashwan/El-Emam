@@ -6,9 +6,9 @@ class CareerItem extends Component {
             <li>
                 <div>
                     <img src={this.props.job.image}/>
-                    <p className="jop_history">{this.props.job.history}</p>
+                    <p className="job_history">{this.props.job.history}</p>
                     <hr/>
-                    <p className="second_p white_p">{this.props.job.content}</p>
+                    <p className="job_qoute white_p">{this.props.job.content}</p>
                 </div>
             </li>
         );

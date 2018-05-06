@@ -1,10 +1,3 @@
-/* loading AraHamah font*/
-@font-face{
-    font-family: arahamah;
-    src: url(../fonts/AraHamah.ttf);
-}
-
-
 /* contact us & user info
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .form-control{
