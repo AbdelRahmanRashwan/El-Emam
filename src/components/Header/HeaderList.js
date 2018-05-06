@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 
 class HeaderList extends Component {
 
   render() {
     return (
       <ul id="header-list">
-          <li className="header-li"><a href="piography.html">السيرة الذاتية</a></li>
-          <li className="header-li"><a href="news.html">أخبار الإمام</a></li>
-          <li className="header-li"><a href="mo2alfat.html">مؤلفات</a></li>
-          <li className="header-li"><a href="media.html">ميديا</a></li>
-          <li className="header-li"><a href="quotes.html">مقولات الإمام</a></li>
+          <li className="header-li"><Link to='/Bio'>السيرة الذاتية</Link></li>
+          <li className="header-li"><Link to='/News'>أخبار الإمام</Link></li>
+          <li className="header-li"><Link to='/Bio'>مؤلفات</Link></li>
+          <li className="header-li"><Link to='/Media'>ميديا</Link></li>
+          <li className="header-li"><Link to='/Bio'>مقولات الإمام</Link></li>
       </ul>
     );
   }
