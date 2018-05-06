@@ -4,9 +4,9 @@ class MediaElement extends Component {
 
   render() {
     let data = this.props.data;
-    let imgSource = require('../resources/image open.png');
+    let imgSource = require('../../resources/image open.png');
     if (data.type == 'video'){
-      imgSource = require('../resources/video play.png');
+      imgSource = require('../../resources/video play.png');
     }
     return (
         <div className="media-element">

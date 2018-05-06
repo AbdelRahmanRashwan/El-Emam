@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../css/media.css'
+import '../../css/media.css'
 import MediaRow from './MediaRow.js'
 
 class MediaSection extends Component {
@@ -7,7 +7,7 @@ class MediaSection extends Component {
   render() {
     let data =new Array();
     for (var i =0; i<12; i++){
-      data.push({'img': require('../resources/video image background.jpg'), 'description': 'قال فضيلة الإمام الأكبر: إن القرآن الكريم استعمل منذ البداية أس', 'type':'image'});
+      data.push({'img': require('../../resources/video image background.jpg'), 'description': 'قال فضيلة الإمام الأكبر: إن القرآن الكريم استعمل منذ البداية أس', 'type':'image'});
     }
     let splittedData = new Array();
     for (var i=0 ; i<data.length ; i+=4){
