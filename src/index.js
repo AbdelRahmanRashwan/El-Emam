@@ -12,11 +12,11 @@ class App extends React.Component{
         return (
             <BrowserRouter > 
                 <div>
-                    <Route path = "/Bio" component = {Bio}/>
-                    <Route path = "/Media" component = {Media}/>
                     <Route path = "/News" component = {NewsPage}/>
-                    <Route path = "/Mo2alfat" component = {Bio}/>
+                    <Route path = "/Media" component = {Media}/>
                     <Route path = "/Contact" component = {ContactUs}/>
+                    <Route path = "/Mo2alfat" component = {Bio}/>
+                    <Route path = "/Bio" component = {Bio}/>
                 </div>
             </BrowserRouter>
         )
