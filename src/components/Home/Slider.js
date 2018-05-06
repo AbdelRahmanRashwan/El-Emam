@@ -31,7 +31,7 @@ class Slider extends Component {
             );
         });
         return (
-            <div id="jssor_1" style={sliderStyle} className="slider">
+            <div id="jssor_1" style={sliderStyle}>
                 <div data-u="slides" style={slidesStyle}>
                     <div className="news_item_slider">
                         <img className="news_image" src={require("../../resources/newsImage.png")}/>
