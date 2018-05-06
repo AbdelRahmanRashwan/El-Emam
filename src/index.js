@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import {BrowserRouter, Route} from 'react-router-dom';
 import Media from './components/Home/Media';
 import Bio from './components/Bio/Bio';
-import NewsPage from './Components/News/NewsPage'
+import NewsPage from './components/News/NewsPage'
 
 class App extends React.Component{
     

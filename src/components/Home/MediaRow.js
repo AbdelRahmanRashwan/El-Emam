@@ -4,13 +4,15 @@ import MediaElement from './MediaElement.js'
 class MediaRow extends Component {
 
   render() {
-
+    let elements = this.props.elements;
+    let elementsRow = elements.map(element=>{
+      return(
+        <MediaElement data = {element} />
+      );
+    })
     return (
       <div className="media-row container">
-        <MediaElement />
-        <MediaElement />
-        <MediaElement />
-        <MediaElement />
+        {elementsRow}
       </div>
     );
   }
