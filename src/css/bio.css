@@ -1,0 +1,399 @@
+/* loading fonts
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@font-face{
+    font-family: decotype;
+    src: url(../fonts/DecoType.ttf);
+}
+
+@font-face{
+    font-family: arahamah;
+    src: url(../fonts/AraHamah.ttf);
+}
+
+/* general style
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+*{
+    direction: rtl;
+    padding: 0px;
+    font-weight:lighter;
+    font-family: arahamah;
+}
+
+p{
+    font-size: 28pt;
+}
+
+
+
+/* header-navbar
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+header{
+    height: 20%;
+}
+
+
+/* header
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.Bio-header{
+    position: relative;
+    width: 100%;
+    height: 480px;
+    background-image: url("../resources/background.png");
+    background-size: cover;
+}
+
+header{
+    background: transparent;
+}
+
+/* header-content
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.header_content{
+    top: 20%;
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+}
+#emam_img{
+    height: 80%;
+    width: 20%;
+    float: right;
+    margin-right: 20%;
+}
+
+#emam_title{
+    height: 25%;
+    width: 23%;
+    float: left;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+/* header-footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.header_footer{
+    width: 100%;
+    height: 35%;
+    position: absolute;
+    bottom:-8px;
+}
+.footer-b{
+    width: 100%;
+    height: 20%;
+    background-color: #b2a179;
+    vertical-align: middle;
+    position: absolute;
+    bottom: 8px;
+}
+#emam_name{
+    height: 68%;
+    width: 10%;
+    position: absolute;
+    top: 50%;
+    right: 21%;
+    transform: translate(-50%,-50%);
+}
+.brief_history{
+    position: absolute;
+    width: 43%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+
+#brief_history_frame{
+    width: 100%;
+    height: 100%;
+}
+
+#history_text{
+    font-size: 1.2em;
+    line-height: 15pt;
+    color: black;
+    font-family: arahamah;
+    font-weight: lighter;
+    text-align: right;
+    text-align-last: right;
+    margin: 0pt;
+    position: absolute;
+    top: 33%;
+    left: 29%;
+    width: 60%;
+}
+/* tags style
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+p{
+    text-align-last: center;
+    font-size: 6pt;
+    line-height: 10pt;
+    font-family: cursive;
+    color: #fff;
+    margin-top: 5px;
+}
+
+/*
+h1{
+    margin: 0;
+}
+
+h2{
+    margin-top: 10px;
+}
+*/
+
+
+/* bio header
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.bio{
+    margin-top: 90px;
+    text-align: center;
+}
+
+.bio_header label{
+    font-family: decotype;
+    font-weight: normal;
+    font-size: 23pt; 
+    display: block;
+    margin-bottom: 10px;
+}
+
+.bio_header .underline{
+    width: 140px;
+}
+
+
+.bio_header img{
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+/* sections styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.section{
+    padding: 30px 0px;
+}
+
+.section_label{
+    line-height: 19px;
+    font-size: 20pt;
+    font-family: arahamah;
+    color: #b2a179;
+    display: block;
+}
+
+.decoration{
+    width: 18px;   
+}
+
+.black-section{
+    background-image: url("../resources/section-bg.png")
+}
+
+/* birth section
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.birth{
+    margin: auto;
+    width: 40%;
+}
+.birth #emam_bio_image{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.birth p{
+    font-family: arahamah;
+    color: black;
+    font-size: 7pt;
+    line-height: 13pt;
+    margin-top: 15px;
+}
+/* history section
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.jop_history{
+    color: #b2a179;
+    font-family: arahamah;
+    font-size: 12pt;
+    text-align: right;
+    text-align-last: right;
+    line-height: 13pt;
+    margin: 0; 
+}
+.timeline hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 0;
+    height: 1px;
+    background: #b2a179;
+}
+
+.second_p{
+    text-align: right;
+    text-align-last: right;
+    margin: 0;
+    font-size: 8pt;
+}
+
+/* achievements section
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#achievements_container{
+    width:80%;
+    margin: 3em auto 0 auto;
+    font-family: arahamah;
+    color: #b2a179; 
+    text-align: right;
+}
+
+.achievement_item_small {
+    width: 25%;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+    margin-bottom: 40px;
+    float: right;
+    font-size: .9em;
+    font-family: "Bahij TheSansArabic", sans-serif;
+    font-style: normal;
+}
+
+#achievements_container:after {
+    content: "";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+#achievements_container h2, #achievements_container h3{
+    margin: 8px 0; 
+    text-align: right;
+    text-align-last: right;
+}
+
+#achievements_container p{
+    font-size: 7pt;
+    text-align: right;
+    text-align-last: right;
+}
+
+/* positions section
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.positions_slider h3, .positions_slider h4,.positions_slider p{
+    text-align: right;
+    text-align-last: right;
+}
+.positions_slider h4{
+    color: #b2a179;
+    font-weight: normal;
+}
+.positions_slider p{
+    color: black;
+}
+
+/*++++++++++++ Slider +++++++++++++++*/
+
+.jssora051 {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+}
+
+.left{
+    width:20px;
+    height:20px;
+    top:0px;
+    left: 525px;
+}
+
+.right{
+    width:20px;
+    height:20px;
+    top:0px;
+    right:250px;
+}
+
+.jssora051 .a {
+    fill: none;
+    stroke: #b2a179;
+    stroke-width: 900px;
+    stroke-miterlimit: 10;
+}
+
+.jssora051:hover {
+    opacity: .8;
+}
+
+
+/*++++++++++++Slider content+++++++++++*/
+
+
+.slider{
+    margin-top: 20px !important;
+    width: 80% !important;
+    height: 400px !important;
+    margin:0 auto;
+}
+
+
+.jop_item_slider {
+    width: 20% !important;
+    height: 40% !important;
+    font-family: "Bahij TheSansArabic", sans-serif;
+    font-style: normal;
+    color: #2d2f2e;
+}
+
+.jop_image {
+    width: 100%
+}
+
+/* qoutation section
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.qoutation{
+    position: relative;
+    height: 280px;
+}
+
+.quote_container{
+    position: relative;
+    width: 30%;
+    height: 44%;
+    top: 30%;
+    right: 15%;
+}
+
+#emam_quote_img{
+    position: absolute;
+    height: 100%;
+    left: 20%;
+    width: 23%;
+    bottom: -1px;
+}
+
+#qoute{
+    font-family: "Bahij TheSansArabic", sans-serif;
+    font-size: 0.9em;
+    line-height: 12pt;
+    color: black;
+    text-align: center;
+    
+    width: 80%;
+    margin: 0;
+    position: absolute;
+    right: 10%;
+    top: 30%;
+}
+
+#qoute_decoration{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+/* footer paragraph
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+footer p{
+    margin: 0;
+}

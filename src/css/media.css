@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    direction: rtl;
+}
+
+#media-section{
+    background: url('../resources/media section background.jpg');
+}
+
+.media-row{
+
+}
+
+.media-element{
+    display: inline-block;
+    width: 23%;
+    margin: 10px;
+}
+
+.media-image-hint{
+    height: 174px;
+    position: relative;
+}
+
+.img-open{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.media-text{
+    font-family: bahij thesansarabic;
+    font-weight: bold;
+    color: #fff;
+}
+
+#qoutation-section{
+    margin-top: 95px;
+}
+
+#quotation-text{
+    background: URL('../resources/qoutation border.png');
+    width: 665px;
+    text-align: center;
+    display: inline-block;
+    float: right;
+    margin-top: 125px;
+    padding: 60px;
+}
+
+#quotation-text p{
+    font-size: 24px;
+    font-family: bahij thesansarabic;
+    font-weight: bold;
+}
+
+
+.news_item_slider {
+    width: 40%;
+    border: 1px solid #eeeeee;
+    font-family: "Bahij TheSansArabic", sans-serif;
+    font-style: normal;
+    color: #2d2f2e;
+}
+
+.news_image {
+    width: 100%
+}
+
+.news_item_slider_content {
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    margin-top: 25px;
+}
+
+.news_item_head_line {
+    font-size: 1em;
+    font-weight: bold;
+    display: inline-block;
+    width: 550px;
+}
+
+.time{
+    display: inline-block;
+    font-family: bahij thesansarabic;
+    font-size: 37px;
+    color: #b2a179;
+}
+
+.jssora051 {
+    display: block;
+    position: absolute;
+    cursor: pointer;
+}
+
+.jssora051 .a {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 360;
+    stroke-miterlimit: 10;
+}
+
+.jssora051:hover {
+    opacity: .8;
+}
