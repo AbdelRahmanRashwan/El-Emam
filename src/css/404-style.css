@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    direction: rtl;
+}
+
+#logo {
+    display: inline-block;
+    margin: 17px 0 0 0;
+    float: right;
+    height: 80px;
+}
+
+header {
+    height: 115px;
+    vertical-align: top;
+}
+
+header:after {
+    content: '';
+    display: inline-block;
+    clear: both;
+}
+
+.container {
+    width: 1220px;
+    margin: 0 auto;
+}
+
+#share-eng {
+    float: left;
+    display: inline-block;
+    margin: 40px 280px 0 0;
+}
+
+#share {
+    margin-left: 35px;
+}
+
+#english {
+    display: inline-block;
+    color: #b2a179;
+    font-family: myriad pro;
+    font-size: 15px;
+}
+
+body {
+    background: url('../resources/404Background.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+#page-not-exist {
+    font-family: "Cairo", sans-serif;
+    font-style: normal;
+    color: #b1a079;
+    margin-bottom: 1em;
+}
+
+#message-404 {
+    width: 40%;
+    font-family: "Cairo", sans-serif;
+    font-style: normal;
+    color: white;
+    margin-bottom: 1em;
+}
+
+.go-home-link {
+    font-family: "Cairo", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color: white;
+}
+
+.footer-404 {
+    margin-top: 4em;
+    padding: 5px;
+    background-color: #b1a079;
+}
+
+a,
+u {
+    text-decoration: none;
+}
