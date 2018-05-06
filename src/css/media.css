@@ -10,7 +10,6 @@
 }
 
 .media-row{
-    
 }
 
 .media-element{
@@ -20,9 +19,8 @@
 }
 
 .media-image-hint{
-    background: url('../resources/video image background.jpg');
     height: 174px;
-    position: relative; 
+    position: relative;
 }
 
 .img-open{
