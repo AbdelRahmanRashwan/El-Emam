@@ -3,6 +3,7 @@ import Qoutation from "./Qoutation";
 import CareerTimeline from "./Timeline";
 import Birth from "./Birth"
 import Achievements from "./Achievements"
+import Slider from "./Slider"
 
 class BioContent extends Component {
     constructor(){
@@ -39,7 +40,8 @@ class BioContent extends Component {
                     <div className="bio_content">
 
                         <Birth birth={this.state.birth}/>
-                        <CareerTimeline/>
+                        <CareerTimeline />
+                        <Slider/>
                         <Achievements/>
 
                     </div>
