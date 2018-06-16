@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import AppHeader from "../Header/AppHeader";
-import ContactUsForm from "./ContactUsForm";
+import ContactUsContent from "./ContactUsContent";
 import Footer from "../Footer/Footer"
 import '../../css/contact_us.css';
 
@@ -9,7 +9,7 @@ class ContactUs extends Component {
     return (
         <div className="contact_us">
             <AppHeader/>
-            <ContactUsForm/>
+            <ContactUsContent/>
             <Footer/>
         </div>
     );
