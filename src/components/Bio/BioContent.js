@@ -11,7 +11,6 @@ class BioContent extends Component {
             birth:{},
             careerHistory:[],
             achievements:[],
-            jobs:[],
             qoutation:""
         }
     }
