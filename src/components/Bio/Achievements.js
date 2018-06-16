@@ -9,7 +9,7 @@ class Achievements extends Component {
       }
   }
 
-  componentWillMount(){
+  componentDidMount(){
     fetch('http://localhost:4000/achievements')
       .then((response) => response.json())
       .then((responseJson) => {
