@@ -16,7 +16,7 @@ class FooterList extends Component {
       );
     })
     return (
-      <ul class="footer-list">
+      <ul className="footer-list">
           <li className="first-footer-list-item footer-list-item">{list[0]}</li>
           {finalJobs}
       </ul>

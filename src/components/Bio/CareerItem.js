@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 class CareerItem extends Component {
     render() {
+      console.log(this.props.job.image);
         return (
             <li>
                 <div>
